@@ -1,11 +1,12 @@
 import product1 from "./assets/products/1.png";
 import product2 from "./assets/products/2.png";
 import product3 from "./assets/products/3.png";
-import product4 from "./assets/products/4.png";
-import product5 from "./assets/products/5.png";
-import product6 from "./assets/products/6.webp";
+import product4 from "./assets/products/4.webp";
+import product5 from "./assets/products/5.jpg";
+import product6 from "./assets/products/6.jpeg";
 import product7 from "./assets/products/7.webp";
-import product8 from "./assets/products/8.webp";
+import product8 from "./assets/products/8.png";
+import product9 from "./assets/products/9.webp";
 
 export const PRODUCTS = [
   {
@@ -28,32 +29,44 @@ export const PRODUCTS = [
   },
   {
     id: 4,
-    productName: "WLS Van Gogh Denim Jacket",
-    price: 228.0,
+    productName: "Gaming PC",
+    price: 2228.0,
     productImage: product4,
   },
   {
     id: 5,
-    productName: "LED Light Strips",
-    price: 19.99,
+    productName: "Gaming Chair",
+    price: 199.99,
     productImage: product5,
   },
   {
     id: 6,
-    productName: "SPECTRUM LS TEE",
-    price: 68.0,
+    productName: "Clock",
+    price: 100.0,
     productImage: product6,
   },
   {
     id: 7,
-    productName: "AUTO SERVICE SHIRT by GOLF WANG",
-    price: 120.0,
+    productName: "Cabinet",
+    price: 320.0,
     productImage: product7,
   },
   {
     id: 8,
-    productName: "DON'T TRIP UNSTRUCTURED HAT",
-    price: 40.0,
+    productName: "LED Strip",
+    price: 99.0,
     productImage: product8,
   },
+  {
+    id: 9,
+    productName: "NY Basic Cap",
+    price: 40.0,
+    productImage: product9,
+  },
+  // {
+  //   id: 10,
+  //   productName: "Macbook Pro 2022 (M1)",
+  //   price: 1999.0,
+  //   productImage: product10,
+  // },
 ];

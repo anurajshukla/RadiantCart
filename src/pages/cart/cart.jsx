@@ -12,6 +12,7 @@ export const Cart = () => {
         <div>
             <h1> Your Cart</h1>
         </div>
+
         <div className="cartItems">
             {PRODUCTS.map((product) => {
                 if(cartItems[product.id] !== 0) {
@@ -24,8 +25,7 @@ export const Cart = () => {
             <p> Subtotal: Rs. {totalAmount} </p>
             <button> Continue Shopping </button>
             <button> Checkout </button>
-        </div> :
-        <h1> Your Cart is Empty </h1>
+        </div> : <h1> Your Cart is Empty </h1>
         }
     </div>
   )

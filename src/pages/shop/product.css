@@ -3,7 +3,7 @@
     height: 254px;
     padding: 5em;
     margin: 10px;
-    background: #e8e8e8;
+    background: #ffffff;
     position: relative;
     overflow: visible;
     display: flex;
@@ -57,8 +57,13 @@
    
    /*Hover*/
    
+   .card:hover {
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+   }
+
    .card-button:hover {
-    border: 1px solid #ffcaa6;
-    background-color: #ffcaa6;
+    border: 1px solid #cbbfbf;
+    background-color: #cbbfbf;
    }
    
